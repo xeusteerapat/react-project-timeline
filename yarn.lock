@@ -1011,10 +1011,17 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.2", "@babel/runtime@^7.10.3", "@babel/runtime@^7.5.1", "@babel/runtime@^7.5.5":
+"@babel/runtime@^7.10.2", "@babel/runtime@^7.10.3", "@babel/runtime@^7.5.1":
   version "7.11.2"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.11.2.tgz#f549c13c754cc40b87644b9fa9f09a6a95fe0736"
   integrity sha512-TeWkU52so0mPtDcaCTxNBI/IHiz0pZgr8VEFqXFtZWpYD08ZB6FaSwVAS8MKRQAP3bYKiVjwysOJgMFY28o6Tw==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
+"@babel/runtime@^7.5.5":
+  version "7.12.0"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.0.tgz#98bd7666186969c04be893d747cf4a6c6c8fa6b0"
+  integrity sha512-lS4QLXQ2Vbw2ubfQjeQcn+BZgZ5+ROHW9f+DWjEp5Y+NHYmkRGKqHSJ1tuhbUauKu2nhZNTBIvsIQ8dXfY5Gjw==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -8782,16 +8789,16 @@ react-app-polyfill@^1.0.6:
     regenerator-runtime "^0.13.3"
     whatwg-fetch "^3.0.0"
 
-react-chrono@^1.1.5, react-chrono@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/react-chrono/-/react-chrono-1.2.0.tgz#d342721aad8e985d505056f54b96278a7356d696"
-  integrity sha512-vAJ2YXRLPXC5mPpjJMe5pQS3BB+RcraDbqHiAsEWs0tkvxXtzb2I3dnXatWiGI2tTtHQ5x8usKWa5A7Q6RmR7g==
+react-chrono@^1.2.0, react-chrono@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/react-chrono/-/react-chrono-1.2.2.tgz#8d4086a172270d7e59e3856d430bd5604cc658ec"
+  integrity sha512-QbJ8qESFTdTYHi4F7MCKiQl2h5c82v6cQqhT7XxHRW62tNYkr6NOvkdYumLzXJqmYl77LC4L8MjDJ5mOsVXxfw==
   dependencies:
     "@emotion/core" "^10.0.35"
     "@emotion/styled" "^10.0.27"
     nanoid "^3.1.12"
-    react "^17.0.0-rc.3"
-    react-chrono "^1.1.5"
+    react "^16.13.1"
+    react-chrono "^1.2.0"
     react-dom "^16.13.1"
     react-responsive "^8.1.0"
 
@@ -8824,15 +8831,6 @@ react-dev-utils@^10.2.1:
     shell-quote "1.7.2"
     strip-ansi "6.0.0"
     text-table "0.2.0"
-
-react-dom@17.0.0-rc.3:
-  version "17.0.0-rc.3"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-17.0.0-rc.3.tgz#6254f82c62ed569a2a90dcf1c7b71d4d8d951744"
-  integrity sha512-rrmZ91kdXBaCVomiNUQ1WvEClb5GcmxewGurd3FnsXKJBOhFdlkGbT5MY5ZQkMXH5xnIvs5ZEEB2iBr2ZqKiqg==
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-    scheduler "0.20.0-rc.3"
 
 react-dom@^16.13.1:
   version "16.13.1"
@@ -8924,13 +8922,14 @@ react-scripts@3.4.3:
   optionalDependencies:
     fsevents "2.1.2"
 
-react@17.0.0-rc.3, react@^17.0.0-rc.3:
-  version "17.0.0-rc.3"
-  resolved "https://registry.yarnpkg.com/react/-/react-17.0.0-rc.3.tgz#ccb426b0146a8c10ee92c2a72d9d813a16a55806"
-  integrity sha512-b1vEcXBmlN2Bu+k57jq2ytEo5p28g5fdRfc02JRdnvGZKKphvlUnAfsrUHiOmUtL/6wvFIusi2zxp8t60fihfw==
+react@^16.13.1:
+  version "16.14.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
+  integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
+    prop-types "^15.6.2"
 
 read-pkg-up@^2.0.0:
   version "2.0.0"
@@ -9409,14 +9408,6 @@ saxes@^3.1.9:
   integrity sha512-Ydydq3zC+WYDJK1+gRxRapLIED9PWeSuuS41wqyoRmzvhhh9nc+QQrVMKJYzJFULazeGhzSV0QleN2wD3boh2g==
   dependencies:
     xmlchars "^2.1.1"
-
-scheduler@0.20.0-rc.3:
-  version "0.20.0-rc.3"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.20.0-rc.3.tgz#ce616ebdd4073f5026718960d7e2d0928788c626"
-  integrity sha512-rPwhSgPKhRqximLHdl+oJ/8HVcMS2vyZlH74OQHqKbH04ONgKNkJ13DZLPdFSYFos8FUj6+PduO9+OoRaG6QWQ==
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
 
 scheduler@^0.19.1:
   version "0.19.1"
